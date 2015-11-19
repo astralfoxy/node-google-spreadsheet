@@ -438,6 +438,9 @@ var SpreadsheetCell = function( spreadsheet, worksheet_id, data ){
 }
 
 module.exports = GooogleSpreadsheet;
+module.exports.SpreadsheetCell = SpreadsheetCell;
+module.exports.SpreadsheetRow = SpreadsheetRow;
+module.exports.SpreadsheetWorksheet = SpreadsheetWorksheet;
 
 //utils
 var forceArray = function(val) {
